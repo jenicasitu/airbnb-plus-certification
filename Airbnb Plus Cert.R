@@ -1,7 +1,6 @@
-# BANA 277
-# Midterm Exam: Airbnb Plus Certification
+# Airbnb Plus Certification
 
-setwd("/Users/jenicasitu/Desktop/uci msba summer 2022 - summer 2023/winter 2023/bana 277/R")
+setwd("")
 # load libraries
 library(summarytools)
 library(Hmisc)
@@ -55,6 +54,3 @@ summary(logit)
 # exponentiated form of the coefficients (5)
 # exponentiate coefficients and interpret them as odds-ratios
 exp(coef(logit))
-
-
-
